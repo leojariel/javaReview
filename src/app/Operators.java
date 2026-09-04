@@ -43,5 +43,40 @@ public class Operators {
         System.out.println("\nMinus Assignment:");
         System.out.println("Deposit: +$" + deposit);
         System.out.println("Money Left: $" + savings);
+
+        // Comparison Operators
+
+        System.out.println("\nAssignment Operators");
+
+        double a = 4532.4690d;
+        int b = 2345;
+
+        System.out.println("\nis " + a + " equals to " + b + "?");
+        boolean isEqual = a == b;
+        System.out.println("result: " + isEqual);
+
+        System.out.println("\nis " + a + " not equals to " + b + "?");
+        boolean isNotEqual = a != b;
+        System.out.println("result: " + isNotEqual);
+
+        System.out.println("\nis " + a + " greater than " + b + "?");
+        boolean isGreater = a > b;
+        System.out.println("result: " + isGreater);
+
+        System.out.println("\nis " + a + " less than " + b + "?");
+        boolean isLess = a < b;
+        System.out.println("result: " + isLess);
+
+        System.out.println("\nis " + a + " greater than and equals to " + b + "?");
+        boolean isGreaterEqual = a >= b;
+        System.out.println("result:" + isGreaterEqual);
+
+        System.out.println("\nis " + a + " less than and equals to " + b + "?");
+        boolean isLessEqual = a <= b;
+        System.out.println("result:" + isLessEqual);
+
+
+
+
     }
 }
