@@ -76,6 +76,21 @@ public class Operators {
         System.out.println("result:" + isLessEqual);
 
 
+        // logical operators
+
+        System.out.println("====== Logical Operators ======\n");
+
+        boolean isLoggedIn = true;
+        boolean isAdmin = false;
+
+        System.out.println("Logical AND: ");
+        System.out.println("Regular user: " + (isLoggedIn && !isAdmin));
+
+        System.out.println("Logical OR: ");
+        System.out.println("Has access: " + (isLoggedIn || isAdmin));
+
+        System.out.println("Logical Not");
+        System.out.println("Not logged in: " + (!isLoggedIn));
 
 
     }
