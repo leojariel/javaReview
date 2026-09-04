@@ -2,6 +2,10 @@ package app;
 
 public class javaReview {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        int maxScore = 500;
+        int userScore = 423;
+
+        double percentage = (double) userScore / maxScore * 100.0d;
+        System.out.println(percentage);
     }
 }
